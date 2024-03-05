@@ -1,15 +1,90 @@
 <html>
 <head>
-  
+    <script src="https://juxinglong.github.io/static/iframe-resizer/iframeResizer.contentWindow.min.js"></script>
     <title> March 05 MIS 3033</title>
+    <link rel="icon" href="head1.png"/>
+    <style>
+        /* asterisk symbol indicates the style applies to everything, however the specific style defined within a div would have higher priority compared to the asterisk*/
+        * {
+            border-radius: 50%;
+        }
 
+        div {
+
+        }
+
+        #div1 {
+            color: rebeccapurple; font-size: 20px; font-weight: bold; background-color: lightblue; width: 200px; height: 150px; margin-bottom: 20px; ;padding-left:10px;padding-top:15px;margin-left:auto; margin-right:auto;border-style:solid;border-color:forestgreen;border-width:3px;border-radius:50%;
+        }
+
+        .style1 {
+            color: rebeccapurple; font-size: 20px; font-weight: bold; background-color: lightblue; width: 200px; height: 150px; margin-bottom: 20px; ;padding-left:10px;padding-top:15px;margin-left:auto; margin-right:auto;border-style:solid;border-color:forestgreen;border-width:3px;border-radius:50%;
+        }
+
+        .sp {
+            display: inline-block; 
+            width: 50px;
+            height: 50px;
+            background-color: lightblue;
+            margin: 10px;
+            border-radius: 0px; 
+        }
+
+        .d {
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: lightblue;
+            margin: 10px;
+            border-radius: 0px;
+        }
+
+        #d1
+        {
+
+        }
+
+        #d2 
+        {
+            position: relative; 
+            left: 30px;
+            top:-20px; 
+            background-color:aquamarine;
+        }
+
+        #d3 
+        {
+            position:absolute;
+            top:0px;
+        }
+
+    </style>
 
 </head>
 <body style="margin: 50px;">
-    <div style="width:300px; height: 400px; background-color: lightblue;"> div1
+    <span class="sp">span</span>
+    <span class="sp">span</span>
+    <span class="sp">span</span>
+
+    <div id="d1" class="d"> div1</div>
+    <div id="d2" class="d"> div2</div>
+    <div id="d3" class="d"> div3</div>
+
+    <div class="style1"> div1 </div>
+    <div class="style1"> div2 </div>
+    <div class="style1"> div3 </div>
+    <img src="head1.png" style="width: 100px; border-radius: 50%;" />
+    <img src="a.svg" style="width: 200px;" />
 
 
+    <div id="div1" style= "color: rebeccapurple; font-size: 20px; font-weight: bold; background-color: lightblue; width: 200px; height: 150px; margin-bottom: 20px; padding-left: 10px; padding-top: 15px; margin-left: auto; margin-right: auto; border-style: solid; border-color: forestgreen; border-width: 3px; border-radius: 50%;">
+        DIV </div>
+     
+    <div style="color: rebeccapurple; font-size: 20px; font-weight: bold; background-color: lightblue; width: 200px; height: 150px; margin-bottom: 20px; padding-left: 10px; padding-top: 15px; margin-left: auto; margin-right: auto; border-style: solid; border-color: forestgreen; border-width: 3px; border-radius: 20px;">
+        DIV
     </div>
+
+    <div style="width:300px; height: 400px; background-color: lightblue;"> div1 </div>
     <img style=" width: 200px;" src="a.svg" />
     <br />
     <img style="height: 300px;" src="b.svg" />
