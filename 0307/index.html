@@ -1,29 +1,135 @@
 <html>
 <head>
-<title>MIS 3033 March 7</title>
-<link rel="icon" href="head1.png" />
+    <script src="https://juxinglong.github.io/static/iframe-resizer/iframeResizer.contentWindow.min.js"></script>
+    <title>MIS 3033 March 7</title>
+    <link rel="icon" href="head1.png" />
+    <style>
+        #main {
+            width: 800px;
+            height: 700px;
+            background-color: lavenderblush;
+            margin: 10px;
+            margin-right: auto;
+            margin-left: auto;
+            display: flex;
+            flex-direction:column; 
+            justify-content:start;
+            align-items: left; 
+            /*//we always use display:flex, justifycontent depends on the flex-direction, so if it says row on the fd, then justify-content will move according to that general direction
+        */
 
-</head>
-<div style="background-color:lightblue;">
-    <div style=" background-color:lightgreen;width: 200px; height:200px;margin:10px;border-radius:20%;">
-        <img src="a (1).svg" style="width:150px;" />
+            /*display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: end;*/
+        }
+    .styleone{
+        width:100px;
+        height:150px;
+        background-color:gold;
+        margin:10px; 
+    }
+        #div1 {
+            background-color: gold;
+            width: 600px;
+            height: 100px;
+            display: flex; 
+            flex-direction: row; 
+
+        }
+    
+     #div2 
+    {
+            background-color: orangered;
+            width: 600px;
+            height: 300px;
+            display:flex; 
+    }
+    #div3 {
+            background-color: mediumaquamarine;
+            width: 600px;
+            height: 100px;
+    }
+    #div4 {
+            background-color: forestgreen;
+            width: 600px;
+            height: 100px;
+        }
+    #div11{
+        display:flex;
+        flex-direction:row; 
+        justify-content:start;
+        align-items:end; 
+    }
+
+    #div12{
+        display:flex;
+        flex-direction: column; 
+        justify-content:start;
+        align-items: end; 
+    }
+
+        #div21 {
+            background-color: grey;
+            width: 33%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center; 
+        }
+    #div22 {
+            background-color: orange;
+            width: 33%;
+            display: flex;
+            flex-direction: row;
+            justify-content:end; 
+            align-items:end; 
+        }
+
+        #div23 {
+            background-color: violet;
+            width: 33%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
       
+
+    </style>
+</head>
+
+
+<body>
+    <div id="main" style="">
+        <div id="div1">
+            <div id="div11" style="width:50%;background-color:forestgreen;">
+                <img src="a (1).svg" style="height:80px;" />
+
+            </div>
+
+            <div id="div12" style="width:50%; background-color:mintcream;">
+                <img src="b (1).svg" style="height:80px;" />
+            </div>
+        </div>
+
+        <div id="div2">
+            <div id="div21">
+            <img src="head1.png" style="height:150px;" />
+        </div>
+            <div id="div22">
+                <img src="head2.png" style="height:150px;" />
+            </div>
+            <div id="div23">
+                <img src="head2.png" style="height:150px;" />
+            </div>
+
+
+        </div>
+        
+        <div id="div3">div3</div>
+        <div id="div4">div4</div>
     </div>
-    <div style=" background-color:lightgreen;width: 200px; height:200px;margin:10px;">
-       <img src="b (1).svg" style="width:150px"/>
-
-    </div>
-    <div style=" background-color:lightgreen;width: 200px; height:200px;margin:10px;">
-   <img src="head1.png" style="width:150px;border-radius:50%;" />
-    </div>
-
-</div>
-
-
-
-
-
-
-
+</body>
 
 </html>
